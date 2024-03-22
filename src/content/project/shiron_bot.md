@@ -1,9 +1,9 @@
 ---
 title: 'shiron bot'
-date: 2021-04-08
+date: '2021-04-08'
 draft: false
 description: 'Discordコミュニティのための管理bot'
-tags: ['個人開発','python','docker','AI'.'gemini']
+tags: ['個人開発','python','docker','AI','gemini']
 ---
 
 リポジトリは非公開です

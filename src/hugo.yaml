@@ -1,7 +1,6 @@
 baseURL: 'https://sasanqua.work/'
 languageCode: 'en-us'
 title: ''
-theme: 'pager-mod'
 defaultContentLanguage: 'ja'
 
 params:
