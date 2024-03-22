@@ -14,10 +14,12 @@ params:
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     buttons:
-      - name: Tech
-        url: "/tech"
       - name: Project
         url: "/project"
+      - name: Zenn
+        url: "https://zenn.dev/sasanqu_a"
+      - name: "Qita"
+        url: "https://qiita.com/sasanqua"
       - name: Solufit
         url: "https://solufit.net"
 
