@@ -1,0 +1,31 @@
+baseURL: 'https://sasanqua.work/'
+languageCode: 'en-us'
+title: ''
+theme: 'pager-mod'
+defaultContentLanguage: 'ja'
+
+params:
+  profileMode:
+    enabled: true
+    title: "sasanqua" # optional default will be site title
+    subtitle: "chiba univ. R-B1"
+    description: "web開発(Nuxt・React) / Python / サーバー構築(Proxmox・Ubuntu・Docker)"
+    imageUrl: "https://pbs.twimg.com/profile_images/1607950985565212673/QFbCWEpk_400x400.jpg" # optional
+    imageTitle: "sasanqua's icon" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Tech
+        url: "/tech"
+      - name: Project
+        url: "/project"
+      - name: Solufit
+        url: "https://solufit.net"
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/sasanqua-create"
+    - name: "twitter"
+      url: "https://x.com/sasanqua_dev"
+
+  ShowBreadCrumbs: true
