@@ -18,7 +18,7 @@ params:
         url: "/project"
       - name: Zenn
         url: "https://zenn.dev/sasanqu_a"
-      - name: "Qita"
+      - name: "Qiita"
         url: "https://qiita.com/sasanqua"
       - name: Solufit
         url: "https://solufit.net"
