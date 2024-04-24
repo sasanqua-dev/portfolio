@@ -25,7 +25,7 @@ params:
 
   socialIcons: # optional
     - name: "github"
-      url: "https://github.com/sasanqua-create"
+      url: "https://github.com/sasanqua-dev"
     - name: "twitter"
       url: "https://x.com/sasanqua_dev"
 
