@@ -220,6 +220,7 @@
 												<span class="font-bold">{{ event.name }}</span>
 												<span class="badge badge-primary badge-outline ml-2" v-if="event.tag != null">{{ event.tag }}</span>
 											</div>
+											<div class="ml-1 text-xs my-1 text-gray-800">主催: {{ event.sponsorship }}</div>
 											<div class="badge flex gap-2" v-if="event.result">
 												<svg xmlns="http://www.w3.org/2000/svg" width="200" height="169.002" viewBox="0 0 200 169.002" class="h-3 w-3 text-primary">
 													<path
@@ -280,6 +281,7 @@
 			date: '2024/06/22 ~ 2024/06/23',
 			tag: 'ハッカソン',
 			result: '企業賞受賞',
+			sponsorship: '株式会社Progate',
 			link: 'https://progate.com/',
 		},
 		{
@@ -287,6 +289,7 @@
 			date: '2024/06/01',
 			tag: null,
 			result: null,
+			sponsorship: 'freee株式会社',
 			link: 'https://progate.com/',
 		},
 		{
@@ -294,6 +297,7 @@
 			date: '2024/05/12',
 			tag: null,
 			result: '企業賞受賞',
+			sponsorship: '株式会社サポーターズ',
 			link: 'https://progate.com/',
 		},
 		{
@@ -301,6 +305,7 @@
 			date: '2024/04/27 ~ 2024/04/29',
 			tag: 'ハッカソン',
 			result: null,
+			sponsorship: 'GMOインターネットグループ株式会社',
 			link: 'https://progate.com/',
 		},
 		{
@@ -308,6 +313,7 @@
 			date: '2024/03/09 ~ 2024/03/10',
 			tag: 'ハッカソン',
 			result: null,
+			sponsorship: '株式会社サポーターズ',
 			link: 'https://progate.com/',
 		},
 		{
@@ -315,6 +321,7 @@
 			date: '2024/02/24 ~ 2024/02/25',
 			tag: 'ハッカソン',
 			result: null,
+			sponsorship: '株式会社サポーターズ',
 			link: 'https://progate.com/',
 		},
 	];
