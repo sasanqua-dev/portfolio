@@ -12,7 +12,7 @@
 						<div class="mt-6">
 							<div class="text-xl">sasanqua</div>
 							<div class="text-sm text-gray-800 m-3">
-								<div>Chiba ( 2024 ~ 2028 )</div>
+								<div>Chiba Univ ( 2024 ~ 2028 )</div>
 								<div>Faculty of Informatics</div>
 								<div>Solufit Engineer</div>
 							</div>
