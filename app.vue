@@ -1,7 +1,10 @@
 <template>
-  <div>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-  </div>
+	<div>
+		<Head>
+			<Title>sasanqua's portfolio</Title>
+		</Head>
+		<NuxtLayout>
+			<NuxtPage />
+		</NuxtLayout>
+	</div>
 </template>
