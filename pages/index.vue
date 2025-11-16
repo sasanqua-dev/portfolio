@@ -14,7 +14,7 @@
 							<div class="text-sm text-gray-800 m-3">
 								<div>Chiba Univ ( 2024 ~ 2028 )</div>
 								<div>Faculty of Informatics</div>
-								<div>Solufit Engineer</div>
+								<div>Frontend Engineer</div>
 							</div>
 						</div>
 						<div class="mt-6 flex gap-2">
