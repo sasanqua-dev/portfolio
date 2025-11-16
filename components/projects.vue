@@ -44,7 +44,7 @@
 		},
 		{
 			name: 'shiron',
-			icon: 'https://r2.shiron-system.net/shiron_system_icon.png',
+			icon: 'https://shiron-r2.solufit.net/shiron_system_icon.png',
 			description: 'コミュニティ管理を効率化するためのシステム',
 			techStack: ['Python', 'Nuxt'],
 			link: 'https://shiron-system.net',
