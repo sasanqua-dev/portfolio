@@ -63,11 +63,6 @@
 									</svg>
 								</a>
 							</div>
-							<div>
-								<a target="_blank" href="https://solufit.net">
-									<img src="https://r2.solufit.net/solufit_common_icon.png" class="h-6 w-6" />
-								</a>
-							</div>
 						</div>
 						<div class="mt-6">
 							<Teckstack />
