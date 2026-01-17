@@ -1,5 +1,5 @@
 <template>
-	<div class="p-4">
+	<!-- <div class="p-4">
 		<div class="w-full flex flex-wrap gap-4">
 			<div v-for="pro in projects" class="w-96 flex flex-col gap-2 rounded-xl border border-primary p-3">
 				<div class="w-full flex items-center justify-start">
@@ -30,9 +30,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </template>
 <script setup lang="ts">
-	const projects = [
-	];
+	const projects = [];
 </script>
