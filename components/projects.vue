@@ -34,21 +34,5 @@
 </template>
 <script setup lang="ts">
 	const projects = [
-		{
-			name: 'Anemos',
-			icon: 'https://siesta.r2.solufit.net/anemos_icon.png',
-			description: 'APIを通して公開されている情報から開発者に価値のあるデータを提供するためのシステム',
-			techStack: ['Python'],
-			link: 'https://anemos.solufit.net',
-			github: '',
-		},
-		{
-			name: 'shiron',
-			icon: 'https://shiron-r2.solufit.net/shiron_system_icon.png',
-			description: 'コミュニティ管理を効率化するためのシステム',
-			techStack: ['Python', 'Nuxt'],
-			link: 'https://shiron-system.net',
-			github: '',
-		},
 	];
 </script>
