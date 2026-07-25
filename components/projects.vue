@@ -1,7 +1,7 @@
 <template>
-	<!-- <div class="p-4">
+	<div class="p-4">
 		<div class="w-full flex flex-wrap gap-4">
-			<div v-for="pro in projects" class="w-96 flex flex-col gap-2 rounded-xl border border-primary p-3">
+			<div v-for="pro in projects" :key="pro.id" class="w-96 flex flex-col gap-2 rounded-xl border border-primary p-3">
 				<div class="w-full flex items-center justify-start">
 					<div class="w-24">
 						<img :src="pro.icon" class="w-20 h-20" />
@@ -9,7 +9,7 @@
 					<div class="w-56">
 						<div class="flex gap-2">
 							<div class="font-bold text-xl">{{ pro.name }}</div>
-							<div class="w-24">
+							<div class="w-24" v-if="pro.link">
 								<a :href="pro.link" target="_blank" class="btn btn-xs"
 									><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-3 w-3">
 										<path
@@ -22,7 +22,7 @@
 							</div>
 						</div>
 						<div class="flex gap-1">
-							<span class="badge" v-for="ts in pro.techStack">{{ ts }}</span>
+							<span class="badge" v-for="ts in pro.techStack" :key="ts">{{ ts }}</span>
 						</div>
 						<div class="my-1"></div>
 						<div>{{ pro.description }}</div>
@@ -30,8 +30,10 @@
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 </template>
 <script setup lang="ts">
-	const projects = [];
+	import type { Project } from '@/schema/project';
+	const { data } = await useContentJson<Project[]>('projects.json');
+	const projects = computed(() => data.value || []);
 </script>

@@ -75,12 +75,6 @@
 </template>
 <script setup lang="ts">
 	import type { Event } from '@/schema/events';
-	const { data: eventdataApi } = await useFetch<{
-		success: boolean;
-		data: {
-			items: Event[];
-		};
-		count: number;
-	}>('/api/events');
-	const eventdata = eventdataApi.value?.data.items || [];
+	const { data } = await useContentJson<Event[]>('events.json');
+	const eventdata = computed(() => data.value || []);
 </script>
