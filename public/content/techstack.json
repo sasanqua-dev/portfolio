@@ -1,0 +1,25 @@
+[
+  {
+    "category": "TypeScript",
+    "items": [
+      { "key": "react", "label": "React" },
+      { "key": "vue", "label": "Vue" },
+      { "key": "nuxt", "label": "Nuxt" }
+    ]
+  },
+  {
+    "category": "Python",
+    "items": [
+      { "key": "fastapi", "label": "FastAPI" },
+      { "key": "django", "label": "Django" }
+    ]
+  },
+  {
+    "category": "Others",
+    "items": [
+      { "key": "docker", "label": "Docker" },
+      { "key": "proxmox", "label": "Proxmox" },
+      { "key": "linux", "label": "Linux ( Ubuntu )" }
+    ]
+  }
+]

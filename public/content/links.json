@@ -1,0 +1,31 @@
+{
+  "name": "sasanqua",
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKDUP9hi_EjoOyy4JcX4sHjlV-andvisMLUuuGwkgQD8kFpNmw=s360-c-no",
+  "tagline": "Frontend Engineer / Chiba Univ",
+  "items": [
+    {
+      "type": "portfolio",
+      "label": "Portfolio",
+      "sublabel": "sasanqua.work",
+      "url": "/"
+    },
+    {
+      "type": "x",
+      "label": "X (Twitter)",
+      "sublabel": "@sasanqua_dev",
+      "url": "https://x.com/sasanqua_dev"
+    },
+    {
+      "type": "github",
+      "label": "GitHub",
+      "sublabel": "@sasanqua-dev",
+      "url": "https://github.com/sasanqua-dev"
+    },
+    {
+      "type": "zenn",
+      "label": "Zenn",
+      "sublabel": "@sasanqu_a",
+      "url": "https://zenn.dev/sasanqu_a"
+    }
+  ]
+}
