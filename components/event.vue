@@ -75,12 +75,13 @@
 </template>
 <script setup lang="ts">
 	import type { Event } from '@/schema/events';
-	const { data: eventdataApi } = await useFetch<{
-		success: boolean;
-		data: {
-			items: Event[];
-		};
-		count: number;
-	}>('/api/events');
-	const eventdata = eventdataApi.value?.data.items || [];
+	const { eventsJsonUrl } = useRuntimeConfig().public;
+	// R2 上の JSON は Event[] もしくは { items: Event[] } のどちらでも受け付ける
+	const { data: eventdata } = await useFetch<Event[] | { items: Event[] }, Error, Event[]>(eventsJsonUrl, {
+		key: 'events',
+		immediate: !!eventsJsonUrl,
+		default: () => [],
+		transform: (res) =>
+			[...(Array.isArray(res) ? res : res?.items ?? [])].sort((a, b) => (b.start_date ?? '').localeCompare(a.start_date ?? '')),
+	});
 </script>
